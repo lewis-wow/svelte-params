@@ -50,7 +50,7 @@ $manipulate = {
 }
 ```
 
-Don't use manipulator
+## Don't use manipulator
 
 ```js
 $manipulate = null
