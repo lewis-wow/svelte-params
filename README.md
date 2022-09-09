@@ -45,7 +45,7 @@ $manipulate = {
      ['slug2', 'name']
   ]),
   'cs': new Map([
-     ['slug2', 'jmeno']
+     ['slug', 'kral']
   ])
 }
 ```
