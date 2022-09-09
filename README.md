@@ -20,3 +20,32 @@ $manipulate = {
 
 $locale = 'cs' // trigger the change
 ```
+
+Skip slug
+
+```js
+$manipulate = {
+  'en': new Map([
+     ['slug', null],
+     ['slug2', 'name']
+  ]),
+  'cs': new Map([
+     ['slug', null]
+.    ['slug2', 'jmeno']
+  ])
+}
+```
+
+Remove slug
+
+```js
+$manipulate = {
+  'en': new Map([
+     ['slug', 'king'],
+     ['slug2', 'name']
+  ]),
+  'cs': new Map([
+     ['slug2', 'jmeno']
+  ])
+}
+```
