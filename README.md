@@ -21,7 +21,7 @@ $manipulate = {
 $locale = 'cs' // trigger the change
 ```
 
-Skip slug
+## Skip slug
 
 ```js
 $manipulate = {
@@ -36,7 +36,7 @@ $manipulate = {
 }
 ```
 
-Remove slug
+## Remove slug
 
 ```js
 $manipulate = {
