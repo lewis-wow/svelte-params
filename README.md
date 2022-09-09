@@ -26,7 +26,7 @@ $locale = 'cs' // trigger the change
 ```js
 $manipulate = {
   'en': new Map([
-     ['slug', null],
+     ['slug', 'king'],
      ['slug2', 'name']
   ]),
   'cs': new Map([
